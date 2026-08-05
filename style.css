@@ -215,3 +215,20 @@ nav{
 }
 
 }
+
+.news-bar{
+    background:#f8f4e6;
+    border-left:6px solid gold;
+    padding:16px 24px;
+    margin:30px auto;
+    border-radius:12px;
+    font-size:18px;
+}
+
+.news-bar strong{
+    color:#8b6b00;
+}
+
+.news-bar span{
+    margin-left:10px;
+}
