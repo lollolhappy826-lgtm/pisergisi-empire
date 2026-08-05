@@ -6,192 +6,7 @@
 
 <title>삐서지시 제국 | 공식 포털</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Noto Sans KR',sans-serif;
-}
-
-body{
-background:#f8f7f3;
-color:#222;
-}
-
-header{
-
-background:#0f1f38;
-color:white;
-padding:18px;
-
-display:flex;
-justify-content:space-between;
-align-items:center;
-
-}
-
-.logo{
-
-font-size:30px;
-font-weight:700;
-
-}
-
-nav a{
-
-color:white;
-text-decoration:none;
-margin-left:25px;
-font-size:18px;
-
-}
-
-.hero{
-
-height:520px;
-
-background:
-linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.25)),
-url("https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1800&q=80");
-
-background-size:cover;
-background-position:center;
-
-display:flex;
-
-justify-content:center;
-align-items:center;
-flex-direction:column;
-
-color:white;
-
-text-align:center;
-
-}
-
-.hero h1{
-
-font-size:64px;
-
-}
-
-.hero p{
-
-font-size:22px;
-
-margin-top:20px;
-
-}
-
-.button{
-
-margin-top:35px;
-
-padding:15px 35px;
-
-background:#b89642;
-
-color:white;
-
-text-decoration:none;
-
-border-radius:40px;
-
-font-weight:bold;
-
-}
-
-.section{
-
-max-width:1300px;
-
-margin:auto;
-
-padding:80px 25px;
-
-}
-
-.section h2{
-
-font-size:38px;
-
-margin-bottom:40px;
-
-}
-
-.grid{
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-
-gap:25px;
-
-}
-
-.card{
-
-background:white;
-
-padding:35px;
-
-border-radius:18px;
-
-box-shadow:0 5px 18px rgba(0,0,0,.08);
-
-transition:.3s;
-
-}
-
-.card:hover{
-
-transform:translateY(-8px);
-
-}
-
-.card h3{
-
-margin-bottom:15px;
-
-}
-
-.news{
-
-background:white;
-
-padding:30px;
-
-border-radius:18px;
-
-box-shadow:0 5px 18px rgba(0,0,0,.08);
-
-}
-
-.news li{
-
-margin:18px;
-
-}
-
-footer{
-
-background:#0f1f38;
-
-color:white;
-
-text-align:center;
-
-padding:35px;
-
-margin-top:80px;
-
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -200,114 +15,126 @@ margin-top:80px;
 <header>
 
 <div class="logo">
-
-👑 삐서지시 제국
-
+PISERGISI EMPIRE
 </div>
 
 <nav>
-
 <a href="#">황실</a>
-
 <a href="#">정부</a>
-
 <a href="#">기사단</a>
-
-<a href="#">관광</a>
-
+<a href="#">지도</a>
 <a href="#">문화</a>
-
-<a href="#">행사</a>
-
+<a href="#">관광</a>
 </nav>
 
 </header>
 
-<section class="hero">
+<section class="hero" style="background-image:url('https://raw.githubusercontent.com/lollolhappy826-lgtm/pisergisi-empire/main/C9188A86-B695-4BA8-8948-2E2F57C9B634.png');">
+
+<div class="hero-content">
 
 <h1>PISERGISI EMPIRE</h1>
 
+<h2>삐서지시 제국</h2>
+
 <p>국민과 함께하는 위대한 제국</p>
 
-<a class="button" href="#">황실 둘러보기</a>
+<a href="#" class="button">황실 둘러보기</a>
+
+</div>
 
 </section>
 
-<section class="section">
+<section>
 
-<h2>빠른 서비스</h2>
+<h2 class="title">제국 소개</h2>
 
 <div class="grid">
 
 <div class="card">
-
 <h3>👑 황실</h3>
-
-<p>공동 군주와 황궁 소개</p>
-
+<p>
+삐야, 서동, 지훈, 시연 공동 군주가 통치하는
+세계 최강의 대제국.
+</p>
 </div>
 
 <div class="card">
-
-<h3>🏛 정부</h3>
-
-<p>행정부 및 국가 정보</p>
-
+<h3>🏛 수도 로블리아</h3>
+<p>
+황궁을 중심으로 번영한
+삐서지시 제국의 수도.
+</p>
 </div>
 
 <div class="card">
-
-<h3>⚔ 기사단</h3>
-
-<p>황실 기사단 안내</p>
-
-</div>
-
-<div class="card">
-
-<h3>🗺 지도</h3>
-
-<p>삐서지시 제국 지도</p>
-
-</div>
-
-<div class="card">
-
-<h3>🎭 문화</h3>
-
-<p>축제와 문화</p>
-
-</div>
-
-<div class="card">
-
-<h3>🏰 관광</h3>
-
-<p>수도 로블리아 여행</p>
-
+<h3>⚔ 황실 기사단</h3>
+<p>
+황실을 수호하는
+최정예 기사단.
+</p>
 </div>
 
 </div>
 
 </section>
 
-<section class="section">
+<section>
 
-<h2>최신 소식</h2>
+<h2 class="title">최신 소식</h2>
 
 <div class="news">
 
 <ul>
 
-<li>📢 로블록스 데이 개최 안내</li>
+<li>👑 황실 공식 일정 발표</li>
 
-<li>🌸 로블리아 꽃축제 일정 발표</li>
+<li>🌸 로블리아 꽃 축제 개최</li>
 
-<li>⚔ 황실 기사단 신규 모집</li>
+<li>⚔ 기사단 신규 모집</li>
 
-<li>👑 황실 공식 일정 공개</li>
+<li>🎉 로블록스 데이 개최 예정</li>
 
 </ul>
+
+</div>
+
+</section>
+<section>
+
+<h2 class="title">빠른 서비스</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>🏰 황실</h3>
+<p>공동 군주와 황궁을 소개합니다.</p>
+</div>
+
+<div class="card">
+<h3>🏛 정부</h3>
+<p>제국의 행정과 국가 정보를 확인합니다.</p>
+</div>
+
+<div class="card">
+<h3>🗺 지도</h3>
+<p>로블리아와 제국 전역을 둘러봅니다.</p>
+</div>
+
+<div class="card">
+<h3>⚔ 기사단</h3>
+<p>황실 기사단과 계급을 소개합니다.</p>
+</div>
+
+<div class="card">
+<h3>🎭 문화</h3>
+<p>축제와 제국 문화를 살펴보세요.</p>
+</div>
+
+<div class="card">
+<h3>🏰 관광</h3>
+<p>황궁과 명소를 방문해 보세요.</p>
+</div>
 
 </div>
 
@@ -315,10 +142,19 @@ margin-top:80px;
 
 <footer>
 
-© PISERGISI EMPIRE • Imperial Government
+<h2>PISERGISI EMPIRE</h2>
+
+<br>
+
+<p>삐서지시 제국 공식 포털</p>
+
+<br>
+
+<p>© 2026 Pisergisi Empire. All Rights Reserved.</p>
 
 </footer>
 
-</body>
+<script src="script.js"></script>
 
+</body>
 </html>
